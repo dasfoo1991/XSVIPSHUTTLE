@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>XS VIP SHUTTLE | Luxury Transfers & Car Rental</title>
+<style>
+ body, html {
+   margin:0;
+   padding:0;
+   font-family:'Arial', sans-serif;
+   color:#333;
+   background-color:#f5f5f5;
+   scroll-behavior: smooth;
+ }
+ header {
+   position: fixed;
+   width: 100%;
+   top:0;
+   left:0;
+   background-color: rgba(0,0,0,0.7);
+   color:#fff;
+   padding: 15px 30px;
+   display:flex;
+   justify-content:space-between;
+   align-items:center;
+   z-index:1000;
+ }
+ header .logo {
+   font-size:1.5em;
+   font-weight:bold;
+ }
+ header nav a {
+   color:#fff;
+   margin-left:20px;
+   text-decoration:none;
+   font-size:1em;
+   transition: color 0.3s ease;
+ }
+ header nav a:hover {
+   color:#ccc;
+ }
+ .hero {
+   height:100vh;
+   background-image: url('../c05a3120-5cae-4a93-8071-2e1914835851.png');
+   background-size: cover;
+   background-position: center;
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+   align-items:center;
+   text-align:center;
+   color:#fff;
+   position:relative;
+ }
+ .hero::before {
+   content:'';
+   position:absolute;
+   top:0;
+   left:0;
+   width:100%;
+   height:100%;
+   background:rgba(0,0,0,0.4);
+ }
+ .hero * {
+   position:relative;
+   z-index:1;
+ }
+ .hero h1 {
+   font-size:3.5em;
+   margin-bottom:0.2em;
+ }
+ .hero p {
+   font-size:1.2em;
+   max-width:700px;
+   margin-bottom:1.5em;
+ }
+ .hero .btn {
+   padding:12px 30px;
+   background-color:#444;
+   color:#fff;
+   border:none;
+   border-radius:5px;
+   font-size:1em;
+   text-decoration:none;
+   cursor:pointer;
+   transition:background-color 0.3s;
+ }
+ .hero .btn:hover {
+   background-color:#666;
+ }
+ section {
+   padding:80px 20px;
+ }
+ .section-title {
+   font-size:2em;
+   margin-bottom:20px;
+   text-align:center;
+   color:#333;
+ }
+ .services, .fleet, .contact, .about {
+   max-width:1100px;
+   margin:0 auto;
+ }
+ .services-grid {
+   display:grid;
+   grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+   gap:20px;
+ }
+ .service-card {
+   background-color:#fff;
+   border-radius:8px;
+   padding:20px;
+   box-shadow:0 2px 5px rgba(0,0,0,0.1);
+ }
+ .service-card h3 {
+   margin-top:0;
+   margin-bottom:10px;
+   font-size:1.3em;
+   color:#333;
+ }
+ .service-card p {
+   font-size:0.95em;
+   line-height:1.5;
+   color:#555;
+ }
+ .contact-form {
+   display:flex;
+   flex-direction:column;
+   max-width:600px;
+   margin:auto;
+ }
+ .contact-form input, .contact-form textarea {
+   padding:10px;
+   margin-bottom:15px;
+   border:1px solid #ccc;
+   border-radius:5px;
+   font-size:1em;
+ }
+ .contact-form button {
+   background-color:#444;
+   color:#fff;
+   border:none;
+   padding:12px;
+   border-radius:5px;
+   font-size:1em;
+   cursor:pointer;
+ }
+ .contact-form button:hover {
+   background-color:#666;
+ }
+ footer {
+   background-color:#333;
+   color:#fff;
+   text-align:center;
+   padding:20px 0;
+ }
+</style>
+</head>
+<body>
+<header>
+ <div class="logo">XS VIP SHUTTLE</div>
+ <nav>
+   <a href="#about">About</a>
+   <a href="#services">Services</a>
+   <a href="#fleet">Fleet</a>
+   <a href="#contact">Contact</a>
+ </nav>
+</header>
+<section class="hero" id="home">
+ <h1>Luxury Transfers & Car Rentals</h1>
+ <p>Experience premium transportation services across Attica and beyond.</p>
+ <a href="#contact" class="btn">Get in Touch</a>
+</section>
+<section id="about" class="about">
+ <h2 class="section-title">About Us</h2>
+ <p>
+   At XS VIP SHUTTLE, we specialize in providing superior transfer and car rental services.
+   Whether you're traveling for business, leisure or special occasions, our professional drivers,
+   modern fleet and commitment to punctuality ensure a seamless journey every time.
+   Based in Attica, Greece, we serve Athens, surrounding suburbs and popular destinations.
+ </p>
+</section>
+<section id="services" class="services">
+ <h2 class="section-title">Our Services</h2>
+ <div class="services-grid">
+   <div class="service-card">
+     <h3>Airport Transfers</h3>
+     <p>
+       Seamless pick-up and drop-off services to and from Athens International Airport.
+       Enjoy a stress-free start or end to your journey with our punctual and reliable drivers.
+     </p>
+   </div>
+   <div class="service-card">
+     <h3>Corporate Travel</h3>
+     <p>
+       Impress clients and partners with executive transfers. Our luxury vehicles ensure
+       comfort and discretion for business trips and meetings.
+     </p>
+   </div>
+   <div class="service-card">
+     <h3>Private Tours</h3>
+     <p>
+       Discover the beauty of Greece with our tailored tours. From cultural landmarks
+       to scenic coastal drives, our experienced drivers guide you in style.
+     </p>
+   </div>
+   <div class="service-card">
+     <h3>Chauffeur Services</h3>
+     <p>
+       Enjoy the convenience of a personal driver for events, shopping trips or
+       special occasions. Our chauffeurs are courteous, professional and ready to assist.
+     </p>
+   </div>
+ </div>
+</section>
+<section id="fleet" class="fleet">
+ <h2 class="section-title">Our Fleet</h2>
+ <p>
+   Our diverse fleet includes luxury sedans, spacious SUVs and comfortable minibuses,
+   all maintained to the highest standards. Each vehicle is equipped with modern
+   amenities and safety features to ensure a smooth ride for individuals and groups.
+ </p>
+</section>
+<section id="contact" class="contact">
+ <h2 class="section-title">Contact Us</h2>
+ <p style="text-align:center;max-width:600px;margin:auto;">
+   Ready to arrange your transfer or learn more about our services? Fill out the form below or reach us via phone or email.
+ </p>
+ <form class="contact-form" onsubmit="event.preventDefault(); alert('Thank you for contacting us! We will get back to you shortly.');">
+   <input type="text" name="name" placeholder="Your Name" required>
+   <input type="email" name="email" placeholder="Your Email" required>
+   <textarea name="message" rows="5" placeholder="How can we assist you?" required></textarea>
+   <button type="submit">Send Message</button>
+ </form>
+ <div style="margin-top:20px;text-align:center;">
+   <p><strong>Phone:</strong> +30 697 252 8665</p>
+   <p><strong>Email:</strong> info@xsvipshuttle.com</p>
+ </div>
+</section>
+<footer>
+ <p>&copy; 2025 XS VIP SHUTTLE. All rights reserved.</p>
+</footer>
+</body>
+</html>
